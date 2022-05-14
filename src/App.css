@@ -41,6 +41,8 @@ background: linear-gradient(45deg, #CE2910 0%, #0C3CA4 50%, #C59237 100%);
  .card-parent > h2{
   border-radius: 20%;
   margin:2px;
+  font-family: 'Jost', sans-serif;
+  font-size:larger
  }
 
 .bar{
@@ -91,16 +93,16 @@ position:relative;
 }
 }
 
-.txt-shadow-title{
-  color: #000000;
+.song-title{
   font-size: 25px;
   color:cyan;
+  font-family: 'Abril Fatface', cursive;
 }
 
-.txt-shadow-artist{
-  color: #000000;
-  background: #FFFFFF;
-  font-size: 25px;
+.song-artist{
+  color:rgb(209, 135, 23);
+  font-size: 25px; 
+  font-family: 'Oleo Script Swash Caps', 'cursive';
   font-weight: 600;
 }
 /*************** responsive **************/
@@ -111,5 +113,9 @@ position:relative;
     padding:0;
   }
 
+  .card-parent{
+    width:70%;
+    height:60%;
+  }
  
 }
