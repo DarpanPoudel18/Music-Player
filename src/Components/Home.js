@@ -15,18 +15,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
   rel="stylesheet"
   href="https://fonts.googleapis.com/icon?family=Material+Icons"
 />
-// const url = ' https://api.npoint.io/50a568126cec34085c17'
+
 
 const Home = (props) => {
     const theme = useTheme();
     const audioEl = useRef(null);
     const[isPlaying,setIsPlaying] = useState(false);
     const[rotate,setRotate] = useState(false);
-    const[songs,setSongs]=useState([props.songs])
-    console.log(props);
-    
-
-    useEffect(()=>{
+   
+     useEffect(()=>{
       if(isPlaying){
         setRotate(true); 
         audioEl.current.play();
