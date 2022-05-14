@@ -61,11 +61,11 @@ const Home = (props) => {
                    }
 
               <Typography >
-                 <span className="txt-shadow-title">{props.songs[props.currentSongIndex].title }</span>
+                 <span className="song-title">{props.songs[props.currentSongIndex].title }</span>
               </Typography>
            
                <Typography>
-                 <span className="txt-shadow-artist">{props.songs[props.currentSongIndex].artist}</span> 
+                 <span className="song-artist">{props.songs[props.currentSongIndex].artist}</span> 
                 <audio src={props.songs[props.currentSongIndex].src} ref={audioEl}></audio>
                </Typography>
 
