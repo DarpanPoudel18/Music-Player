@@ -28,8 +28,10 @@ const Home = (props) => {
 
     useEffect(()=>{
       if(isPlaying){
+        setRotate(true); 
         audioEl.current.play();
       }else{
+        setRotate(false); 
         audioEl.current.pause();
       }
       console.log(audioEl);
@@ -84,7 +86,7 @@ Next:{props.songs[props.nextSongIndex].title }
              <IconButton aria-label="play/pause" onClick=
                  {
                   ()=> {
-                    setRotate(true); 
+                    
                     setIsPlaying(!isPlaying);
                    
                     }
@@ -95,7 +97,7 @@ Next:{props.songs[props.nextSongIndex].title }
              <IconButton aria-label="next" onClick={()=> {
                setIsPlaying(!isPlaying);
                  props.SkipSong()
-                 setRotate(false)
+                
                }}>
                {theme.direction === 'rtl' ? <SkipPreviousIcon /> : <SkipNextIcon />}
              </IconButton>
