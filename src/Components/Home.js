@@ -92,7 +92,7 @@ Next:{props.songs[props.nextSongIndex].title }
              </IconButton>
 
              <IconButton aria-label="next" onClick={()=> {
-               setIsPlaying(!isPlaying);
+//                setIsPlaying(!isPlaying);
                  props.SkipSong()
                 
                }}>
