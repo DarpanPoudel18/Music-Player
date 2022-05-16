@@ -7,8 +7,8 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 // import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import {faPlay, faPause} from '@fortawesome/free-solid-svg-icons';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
+import {faPlay, faPause, faForward, faBackward} from '@fortawesome/free-solid-svg-icons';
+// import SkipNextIcon from '@mui/icons-material/SkipNext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 <link
