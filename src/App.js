@@ -46,6 +46,20 @@ const App = () => {
         artist:"atif aslam",
         img_src:"./images/doorie.jpeg",
         src:"./songs/Doorie.mp3"
+      },
+       {
+        id:7,
+        title:"Anne Marie-2002",
+        artist:"Anne Marie",
+        img_src:"./images/anne.jpg",
+        src:"./songs/anne.mp3"
+      },
+      {
+        id:8,
+        title:"Chamba Maaye Ni",
+        artist:"Armaan Mallik",
+        img_src:"./images/armaan.jpg",
+        src:"./songs/chamba.mp3"
       }
       
     ]
