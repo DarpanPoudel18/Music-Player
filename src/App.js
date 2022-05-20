@@ -8,42 +8,42 @@ const App = () => {
       {
         id:1,
         title:"Tere Liye",
-        artist:"atif aslam",
+        artist:"Atif aslam",
         img_src:"./images/tereliye.jpg ",
         src:"./songs/TereLiye.mp3"
       },
       {
         id:2,
         title:"Tera Hone Laga",
-        artist:"atif aslam",
+        artist:"Atif aslam",
         img_src:"./images/terahonelaga.jpg",
         src:"./songs/TeraHoneLaga.mp3"
       },
       {
         id:3,
         title:"Bakhuda",
-        artist:"atif aslam",
+        artist:"Atif aslam",
         img_src:"./images/bakhudatum.jpg",
         src:"./songs/Bakhuda.mp3"
       },
       {
         id:4,
         title:"Tu Jane Na",
-        artist:"atif aslam",
+        artist:"Atif aslam",
         img_src:"./images/tu.jpg",
         src:"./songs/TUJaneNa.mp3"
       },
       {
         id:5,
         title:"Be Intehaan",
-        artist:"atif aslam",
+        artist:"Atif aslam",
         img_src:"./images/beintehaan.jpeg",
         src:"./songs/BeIntehaan.mp3"
       },
       {
         id:6,
         title:"Doorie",
-        artist:"atif aslam",
+        artist:"Atif aslam",
         img_src:"./images/doorie.jpeg",
         src:"./songs/Doorie.mp3"
       },
@@ -56,10 +56,10 @@ const App = () => {
       },
       {
         id:8,
-        title:"Chamba Maaye Ni",
-        artist:"Armaan Mallik",
-        img_src:"./images/armaan.jpg",
-        src:"./songs/chamba.mp3"
+        title:"Piya ore Piya",
+        artist:"Atif aslam",
+        img_src:"./images/piyaorepiya.jpg",
+        src:"./songs/piya.mp3"
       }
       
     ]
