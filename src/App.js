@@ -51,7 +51,7 @@ const App = () => {
         id:7,
         title:"Kuch Is Tarah",
         artist:"Atif aslam",
-        img_src:"./images/doorie.jpg",
+        img_src:"./images/kuch.jpeg",
         src:"./songs/KuchIsTarah.mp3"
       },
       {
