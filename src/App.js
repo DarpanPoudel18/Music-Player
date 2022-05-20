@@ -49,10 +49,10 @@ const App = () => {
       },
        {
         id:7,
-        title:"Anne Marie-2002",
-        artist:"Anne Marie",
-        img_src:"./images/anne.jpg",
-        src:"./songs/anne.mp3"
+        title:"Kuch Is Tarah",
+        artist:"Atif aslam",
+        img_src:"./images/doorie.jpg",
+        src:"./songs/KuchIsTarah.mp3"
       },
       {
         id:8,
