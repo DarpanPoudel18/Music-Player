@@ -119,6 +119,7 @@ position:relative;
   }
 
   .card-parent{
+     overflow: hidden;
     width:70%;
     height:60%;
   }
