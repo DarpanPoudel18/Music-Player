@@ -6,9 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-// import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import {faPlay, faPause, faForward, faBackward} from '@fortawesome/free-solid-svg-icons';
-// import SkipNextIcon from '@mui/icons-material/SkipNext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 <link
@@ -77,7 +75,7 @@ Next:{props.songs[props.nextSongIndex].title }
 
          <Box className="music-function">
              <IconButton aria-label="previous" onClick={()=> props.SkipSong(false)}>
-             {theme.direction === 'rtl' ? <SkipNextIcon /> : <SkipPreviousIcon />}
+              <FontAwesomeIcon icon={faBackward} className="prev" />
              </IconButton>
 
              <IconButton aria-label="play/pause" onClick=
@@ -88,7 +86,7 @@ Next:{props.songs[props.nextSongIndex].title }
                    
                     }
                  }>
-                 <FontAwesomeIcon icon={isPlaying ? faPause : faPlay}/>
+                 <FontAwesomeIcon icon={isPlaying ? faPause : faPlay} className="play-pause"/>
              </IconButton>
 
              <IconButton aria-label="next" onClick={()=> {
@@ -96,7 +94,7 @@ Next:{props.songs[props.nextSongIndex].title }
                  props.SkipSong()
                 
                }}>
-               {theme.direction === 'rtl' ? <SkipPreviousIcon /> : <SkipNextIcon />}
+                <FontAwesomeIcon icon={faForward}   className="next"/>
              </IconButton>
 
            
